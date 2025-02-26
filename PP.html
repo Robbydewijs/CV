@@ -1,4 +1,4 @@
-ow to center<!doctype html>
+<!doctype html>
 
 <html>
 
@@ -8,12 +8,70 @@ ow to center<!doctype html>
 <title> funny HaHa form :) </title>
 
     <style>
-        h1 {text-align: center; }
-        p {text-align: center; }
-        div {text-align: center; }
-        img {align-items: center;}
+        body {
+            background-color: rgb(217, 228, 203);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        .text-center {
+            text-align: center;
+        }
+       
+        .image  {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border-radius: 16px;
+            align-self: center;
+        }
 
+        .button {
+            transition-duration: 0.5s;
+            display: inline-block;
+            align-self: center;
+            width: 100px; height: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: none;
+            color: white;
+            background-color: black;
+           
+        }
 
+        .button:hover {
+
+            color: black;
+            background-color: white;
+            border: black;
+            border-style: solid;
+        }
+
+        .button:active {
+            background-color: lightgray;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .no-button {
+            transition-duration: 0.5s;
+            display: inline-block;
+            align-self: center;
+            width: 100px; height: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: none;
+            color: white;
+            background-color: black;
+        }
+        .no-button:hover {
+            cursor: not-allowed;
+            background-color: red;
+            
+        }
     </style>
 
 
@@ -21,16 +79,43 @@ ow to center<!doctype html>
 
 <body>
 
-    <h1>Hello to my first website \('-' )\</h1>
-    <p>enjoy my <i>small</i> form</p>
+    <!--this text is invisible hihi-->
+    <!--this is the opening sentence with a cute cat picture hope you like it rob :)-->
 
-    <img src="/Images/shower-cat.gif" alt=" cat haha" style=" width: 220px;height: 265px;" />
+    <h1 class="text-center">Hello to my first website \('-' )\</h1>
+    <p class="text-center">enjoy my <i>small</i> form</p>
+
+    <img src="images/shower-cat.gif" alt=" cat haha" style=" width: 220px;height: 265px;" class="image"/>
+
+    <!--now for the meat of the page-->
+
+    <br><br>
+
+    <p class="text-center">First question this one is <b>hard</b></p>
+    <p class="text-center">how many <b>beers</b> is the correct amount of beers?</p>
+
+    <div class="buttons">
+        <button class="button">1</button>
+        <button class="button">3</button>
+        <button class="button">6</button>
+        <button class="button">12</button>
+        <button class="button">15</button>
+    </div>
+
+    <br><br>
+
+    <!--this is a very serious and real questionnaire ofcourse-->
+    <p class="text-center">Now for a real question</p>
+    <p class="text-center">is <b>HTML</b> fun?</p>
+
+    <div class="buttons">
+        <button class="button">No</button>
+        <button class="no-button">Yes</button>
+
+    </div>   
 
 
 </body>
-
-
-
 
 
 </html>
