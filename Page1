@@ -1,0 +1,42 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<title>Page 1</title>
+<link href="css/mycss.css" rel="stylesheet" type="text/css">
+
+<html>
+
+<head>
+   
+<body class="bg">
+        <h1 class="title">This is Page one</h1>
+
+        <h2 class="title">small title</h2>
+
+    <p class="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum nec lectus at lacinia. Mauris a semper nunc. Aenean in risus aliquam erat fringilla volutpat. Maecenas porta ligula sed diam gravida bibendum. Praesent a placerat nisl. Mauris elit lacus, fringilla vel risus vel, mollis posuere tortor. Nulla imperdiet, lectus a imperdiet pellentesque, augue risus laoreet nulla, at efficitur ex lectus eu turpis. Praesent sodales luctus ante ut fringilla. Integer quis dolor id ligula vulputate posuere vel quis mauris. Nulla pellentesque lacus id odio pretium finibus. Nam vitae dictum magna, quis maximus nisi. Phasellus vitae ultricies nibh, vitae vulputate nisl. Vivamus fringilla, tortor vel rhoncus ultricies, risus mi malesuada augue, in tempor eros sapien vitae mi.</p>
+
+        <hr>
+
+    <p class="text">
+        Vestibulum at sollicitudin dolor, at imperdiet nisl. Suspendisse tristique tincidunt consectetur. Proin vel dolor ac mauris luctus euismod nec at urna. Fusce massa lacus, accumsan sed laoreet a, convallis in magna. Pellentesque venenatis dui id eros egestas luctus. Aenean luctus laoreet quam sed aliquam. Aenean consectetur ipsum non dui pharetra vulputate. Suspendisse sed elementum lorem, vitae iaculis magna. Cras scelerisque nulla et enim iaculis, vitae sagittis nisi sagittis. Proin rutrum, neque sed tincidunt tempor, urna nunc blandit orci, sed tempus augue ipsum nec nibh. Proin.
+    </p>
+    
+        <hr>
+
+        <h2 class="title">small title</h2>
+
+
+    <ul class="text">
+        <li><a href="PP.html">link</a></li>
+        <li><a href="https://www.lipsum.com/feed/html">whaddup</a></li>
+    </ul>
+   <!--Hi rob :)-->
+
+</body>
+
+
+</head>
+
+
+</html>
