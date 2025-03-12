@@ -12,6 +12,7 @@ body {
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+/* this is my class rob */
 .list-text {
 	font-family: "Source Code Pro", monospace;
 	font-optical-sizing: auto;
@@ -60,22 +61,25 @@ body {
 	flex-basis: 1.4rem;
 }
 
-.name-text {
+/* this is my class rob */
+	.name-text {
 	color: #fff;
-}
+	}
 
-.buas-text {
+/* this is my class rob */
+	.buas-text {
 	color: #fff;
 	border-radius: 10px;
 	border-color: #EE7421;
 	border-style: solid;
 	background-color: #EE7421;
 	transition-duration: 0.4s;
-}
+	}
 
-.buas-text:hover {
+/* this is my class rob */
+	.buas-text:hover {
 	background-color: #fff;
 	color: #EE7421;
 	transition-duration: 0.4s;
 	border-color: #fff;
-}
+	}
