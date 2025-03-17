@@ -7,7 +7,9 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #D9E6C3;
+
+	background-size: cover;
+	background-size: contain;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
@@ -87,4 +89,17 @@ body {
 /* this is my class rob */
 	.background-bar {
 		background-color: #aebd92;
+	}
+
+/* this is my class rob */
+	.border-bar {
+		border-color: #616657;
+		border-style: solid;
+		border-width: 2px;
+		border-radius: 3px;
+	}
+
+/* this is my class rob */
+	.portrait-image {
+		border-radius: 10px;
 	}
